@@ -30,4 +30,8 @@
   .hidden {
     display: none;
   }
+
+  input {
+    width: 40%;
+  }
   

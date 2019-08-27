@@ -17,16 +17,23 @@
     <div class="container">
       <h1>Dog API: Random Photo of Dog Breed</h1>
       <hr />
-      
+
       <section class="formGroup">
         <h3>What dog breed would you like to see?</h3>
         <form>
-          <label for="breedOfDog">Dog Breed: </label>
-          <input type="text" name="breedOfDog" placeholder="Retriever" required />
-          <button type="submit" name="submit" class="getBreedButton">Get Dog Photo!</button>
+          <label for="dogBreed">Dog Breed:</label>
+          <input
+            type="text"
+            name="dogBreed"
+            placeholder="Enter Breed Here"
+            required
+          />
+          <button type="submit" name="submit" class="getBreedButton">
+            Get Dog Photo!
+          </button>
         </form>
       </section>
-      
+
       <section class="results hidden">
         <h2>Look at this pup!</h2>
       </section>
